@@ -25,6 +25,9 @@ Phase Config: (1,1) (2,1) (1,2) (2,2) (2,3) (3,2) (3,3) (2,1) (1,2) (1,1)
         - I also didn't take into consideration the 10^100 scale until the end to not deal with the large numbers in the computation 
 
  - I then choose many different combinations of (k, l) pairs and try random starts to find the best solution. This process is done many times in a loop and the best solution is saved.
+
+ - I did also try to use the LLL lattice reduction algorithm to find the best solution, but it was not very effective in this case. 
+   It would make very sparse solutions and were nowhere near the best solution.
 =================================================================================================
 
 
