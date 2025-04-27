@@ -78,10 +78,13 @@ vector<int> subset_sum_progressive(const vector<double>& M,
         {{3, 3}, {3, 4}, {4, 3}},
 
         // Phase 4: Larger structural changes
-        {{4, 4}, {4, 5}, {5, 4}},
+        {{4, 4}},
         
         // Phase 5: Final adjustments
-        {{1, 1}, {1, 2}, {2, 1}}
+        {{1, 1}, {1, 2}, {2, 1}},
+
+        // Phase 6: Final adjustments
+        {{2, 2}, {2, 3}, {3, 2}},
     };
     
     for (size_t phase = 0; phase < phases.size(); phase++) {
